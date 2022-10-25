@@ -11,7 +11,7 @@ from flask import *
 #from flask_cors import CORS, cross_origin
 #import requests, json
 
-application = app = Flask(__name__)
+application = app = Flask(__name__,template_folder='templates')
 #CORS(app)
 
 
